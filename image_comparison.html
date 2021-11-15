@@ -44,7 +44,7 @@
         imagesLoaded++;
         if (imagesLoaded == 2) {
           before.width = after.width;
-          before.height = after.height;
+          after.height = before.height = after.height;
           $(".twentytwenty-container").twentytwenty();
         }
       }
